@@ -1,0 +1,18 @@
+@media all and (max-width: 970px) {
+  .footer__block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 600px) {
+  .footer__logo {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    margin: 0 auto;
+  }
+  .footer__block_first {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
